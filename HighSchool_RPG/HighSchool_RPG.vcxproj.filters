@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\HIFramework">
+      <UniqueIdentifier>{322baea4-de8e-4277-8b79-b92846670a13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\gui.cpp">
@@ -56,6 +59,24 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\HIFramework\HIFramework.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HIFramework\TApplication.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HIFramework\TCarbonEvent.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HIFramework\TEventHandler.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HIFramework\TNib.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HIFramework\TWindow.h">
+      <Filter>Source Files\HIFramework</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\data">
@@ -69,6 +90,21 @@
     </None>
     <None Include="Resources\monsters">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Source\HIFramework\TApplication.cp">
+      <Filter>Source Files\HIFramework</Filter>
+    </None>
+    <None Include="Source\HIFramework\TCarbonEvent.cp">
+      <Filter>Source Files\HIFramework</Filter>
+    </None>
+    <None Include="Source\HIFramework\TEventHandler.cp">
+      <Filter>Source Files\HIFramework</Filter>
+    </None>
+    <None Include="Source\HIFramework\TNib.cp">
+      <Filter>Source Files\HIFramework</Filter>
+    </None>
+    <None Include="Source\HIFramework\TWindow.cp">
+      <Filter>Source Files\HIFramework</Filter>
     </None>
   </ItemGroup>
 </Project>

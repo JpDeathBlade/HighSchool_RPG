@@ -135,6 +135,12 @@
   <ItemGroup>
     <ClInclude Include="resource.h" />
     <ClInclude Include="Source\gui.h" />
+    <ClInclude Include="Source\HIFramework\HIFramework.h" />
+    <ClInclude Include="Source\HIFramework\TApplication.h" />
+    <ClInclude Include="Source\HIFramework\TCarbonEvent.h" />
+    <ClInclude Include="Source\HIFramework\TEventHandler.h" />
+    <ClInclude Include="Source\HIFramework\TNib.h" />
+    <ClInclude Include="Source\HIFramework\TWindow.h" />
     <ClInclude Include="Source\location.h" />
     <ClInclude Include="Source\player.h" />
     <ClInclude Include="Source\randgen.h" />
@@ -148,6 +154,11 @@
     <None Include="Resources\events" />
     <None Include="Resources\maps" />
     <None Include="Resources\monsters" />
+    <None Include="Source\HIFramework\TApplication.cp" />
+    <None Include="Source\HIFramework\TCarbonEvent.cp" />
+    <None Include="Source\HIFramework\TEventHandler.cp" />
+    <None Include="Source\HIFramework\TNib.cp" />
+    <None Include="Source\HIFramework\TWindow.cp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
