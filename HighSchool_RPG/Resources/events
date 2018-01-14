@@ -1,0 +1,248 @@
+[001]
+(display)
+-
+-:-
+-:=:-
+-:=:-:=:-
+-:=:-
+-:-
+-
+(text)
+Hello my name is Sam.
+Lets fight!
+(Battle)
+1
+(Add Items)
+160
+(Remove Items)
+20
+
+[115]
+triggers: 1
+(display)
+     __________      
+    |\        /|     
+  __| \      / |__   
+ /  \  \    /  /  \  
+/    \  \  /  /    \ 
+|     \  \/  /     |
+|      \    /      |
+|       \  /       |
+|        \/        |
+(text)
+Pieman returns!
+He challenges you to a battle!
+(battle)
+10
+
+[000]
+(text)
+You awake in your room.
+You: ...o man what a night. What's my name? >
+
+[000]
+(text)
+You: Dam, how could I have forgotten that!?!
+As you sit up you begin to feel better.
+You: *Yawn* Wonder what everyone's been up too, I should check my e-mail.
+
+[002]
+triggers: 1
+(display)
+,___________________________________________________,
+|                                            |-|[]|X|
+*---------------------------------------------------*
+|                                                   |
+|  Have you ever seen a ghost?                      |
+|                                                   |
+|                      - Ben                        |
+|                                                   |
+|                     Attached: Ghost.exe           |
+|                                _______   ______   |
+|                               |Forward| |Replay|  |
+|                                -------   ------   |
+*---------------------------------------------------*
+(text)
+You: Ghosts? What's Ben been up too?
+Curiosity sets in.
+You: Fine Ben...you and your stupid ghosts.
+You open Ghost.exe...
+(link)
+003
+
+[003]
+triggers: 1
+(display)
+,___________________________________________________,
+|                                            |-|[]|X|
+*---------------------------------------------------*
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   |
+*---------------------------------------------------*
+(text)
+You: What a jip Ben!....nothing's there.
+You reach for the Esc Key
+(link)
+004
+
+[004]
+triggers: 1
+(display)
+,___________________________________________________,
+|                                            |-|[]|X|
+*---------------------------------------------------*
+|                                                   |
+|     .,+??:~?++:::::::.:::::.:.:..:..::.::::,      |
+|     ,=++++I.,~=+:::::.:::::..::..:::::.:::::      |
+|     .~~:=+?+=+~=~::::.::::.,,.:...::::.:::::      |
+|     ....,......~=::::.:::::?+:,...:....:::::      |
+|     :...,,,......::::.:~::~=~,~...,.,,..,:::      |
+|     :,...,,,.....::::.:~~~~,:,~.....,::,..::      |
+|     :~,......,,,~~~~:.:~~~~.~:~...,:::~~,.::      |
+|                                                   |
+*---------------------------------------------------*
+(text)
+You: Holy!!!
+You: He's so getting it at school.
+(link)
+005
+
+[005]
+(text)
+There's a computer, it's turned off.
+
+[006]
+triggers: 1
+(text)
+A voice calls out "Hey"
+You: Hey Joe, Ben sent me the scariest thing ever this morning.
+Joe: How? He's dead.
+You: What!?!
+Joe: Last night, they found him in his room.
+You: What happend?
+Joe: Noone knows, he had no cuts, nothing..
+You: Then how did he die?...
+The bus arives and you get on.
+(send)
+School_F1 2 2
+
+[007]
+triggers: 1
+(text)
+You: Guys did you hear about Ben?
+Shayla: Yea I heard...it's so sad
+You: I think theres something wrong.
+Eugen: What do you mean?
+You: I got an email from him this morning.
+Eugen: So...
+You: He's died last night!
+Shayla: Thats not funny, he was your friend.
+You: Im serious!
+Pat: Just go to class dude...
+(link)
+008
+
+[008]
+(text)
+You: I better get to class.
+
+[009]
+triggers: 1
+(text)
+You: This isnt my class room?
+
+[010]
+(text)
+The door is locked.
+You: I'm not getting past here.
+
+[011]
+(text)
+You can't leave school before 2:30.
+
+[012]
+triggers: 1
+(text)
+You: This is so weird, Ben's gotta have something to do with this.
+You: I should head to his house, there must be a way there.
+
+[013]
+triggers: 1
+(text)
+You: I made it, I need to get to his computer.
+
+[014]
+triggers: 1
+(display)
+,___________________________________________________,
+|                                            |-|[]|X|
+*---------------------------------------------------*
+|                                                   |
+| From the school to my place isnt that far...      |
+|    Three steps tough the invisable bar...         |
+|                                                   |
+|                                                   |
+|                                                   |
+| If you can read this, please come find me in the  |
+| School Yard.                                      |
+|                                                   |
+*---------------------------------------------------*
+(text)
+You: What does that mean?
+You: I guess I better head back to the school.
+(link)
+005
+
+[015]
+triggers: 1
+(display)
+ _________
+|         |
+| ~~~~~~~ |
+| ~~~~    |
+|         |
+|_________|
+(text)
+You pick up a note left by Ben.
+Ben: If you found this note you were too late, I have left.
+Ben: I will be safe with time.
+You: Great another riddle....comeone Ben, just say what you want me to do.
+You flip the note over.
+"School Ends"
+You: I wonder what that has to do with it.
+(link)
+016
+
+[016]
+(display)
+ _________
+|         |
+| ~~~~~~~ |
+| ~~~~    |
+|         |
+|_________|
+(text)
+You pick up a note left by Ben.
+Ben: If you found this note you were too late, I have left.
+Ben: I will be safe with time.
+You flip the note over.
+"School Ends"
+
+[017]
+(text)
+You: Safe with time, safe with time...hes behind the clock!
+You: How do I get back there...
+You think about the note Ben left.
+You: School ends....
+You: 2:30!, I have to change the clocks time.
+You set the clock to 2:30...
+The clock slides over reviling a stairwell.
+(send)
+"School_B1?" 1 1
